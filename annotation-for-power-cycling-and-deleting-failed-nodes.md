@@ -162,7 +162,7 @@ hosts referenced by node-less machines
 See truth table below:
 
 |Node Ref exists?|Needs remediation annotation|Powered on?|Reboot annotation|MRC action|
-|:-:|:-:|:-:|:-:|:-:|
+|:-:|:-:|:-:|:-:|---|
 |0|1|1|0|Add reboot annotation|
 |1|1|1|0|Add reboot annotation|
 |1|1|0|1|Delete node|
